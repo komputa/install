@@ -18,9 +18,9 @@ eduerp.enable is a simple shell script that runs drush commands to establish a d
 + Create Apache virtualhost for the domain where EduERP will be hosted e.g http://domain.edu.ng  
 + Change directory to the webroot and download the installation files.  
 + Run eduerp.make and agree to download -  (downloads Drupal, EduERP, dependent modules and libraries)   
-          drush make eduerp.make 
+          <pre><code>drush make eduerp.make</code></pre> 
 + Go to URL of the virtualhost e.g http://domain.edu.ng and complete the installation.  
 + Go back to webroot, make eduerp.enable executable and run it  
-          chmod a+x eduerp.enable   
-          sh eduerp.enable
+          <pre><code>chmod a+x eduerp.enable</code></pre> 
+          <pre><code>sh eduerp.enable</code></pre>
 + Follow next steps for [Post-Install Config](https://github.com/eduerp/eduerp/wiki/EduERP-Post-Install "Post-Install config")
