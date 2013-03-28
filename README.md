@@ -12,7 +12,7 @@ eduerp.enable is a simple shell script that runs drush commands to establish a d
 1. Web server - Apache or alternative  
 2. Database server - MySQL 4.1 or higher, PostgreSQL 7.1  
 3. PHP - Drupal 6: PHP 4.4.0 or higher (5.3 recommended)  
-4. Drush
+4. Drush (preferably from PEAR channel - pear.drush.org)
 
 **Usage**  
 + Create Apache virtualhost for the domain where EduERP will be hosted e.g http://domain.edu.ng  
